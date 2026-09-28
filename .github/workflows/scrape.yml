@@ -2,7 +2,7 @@ name: Scrape theme park wait times
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '4,34 * * * *'
   workflow_dispatch: {}
 
 permissions:
