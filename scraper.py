@@ -6,8 +6,8 @@ import zoneinfo
 import requests
 
 PARKS = {
-    125: {"name": "Everland", "lat": 37.2947, "lon": 127.2029},
-    333: {"name": "Lotte World", "lat": 37.5111, "lon": 127.0980},
+    125: {"name": "Everland"},
+    333: {"name": "Lotte World"},
 }
 
 KST = zoneinfo.ZoneInfo("Asia/Seoul")
@@ -15,8 +15,6 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 FIELDS = [
     "timestamp_kst", "park_id", "park_name", "land_name",
     "ride_id", "ride_name", "is_open", "wait_time_min",
-    "temperature_c", "precipitation_mm", "weather_code",
-    "humidity_pct", "wind_speed_kmh",
 ]
 
 
@@ -25,18 +23,6 @@ def fetch_queue_times(park_id):
     resp = requests.get(url, timeout=15)
     resp.raise_for_status()
     return resp.json()
-
-
-def fetch_weather(lat, lon):
-    url = (
-        "https://api.open-meteo.com/v1/forecast"
-        f"?latitude={lat}&longitude={lon}"
-        "&current=temperature_2m,precipitation,weather_code,relative_humidity_2m,wind_speed_10m"
-        "&timezone=Asia%2FSeoul"
-    )
-    resp = requests.get(url, timeout=15)
-    resp.raise_for_status()
-    return resp.json().get("current", {})
 
 
 def iter_rides(payload):
@@ -64,12 +50,6 @@ def main():
             print(f"[warn] failed to fetch park {park_id}: {exc}")
             continue
 
-        try:
-            weather = fetch_weather(meta["lat"], meta["lon"])
-        except requests.RequestException as exc:
-            print(f"[warn] failed to fetch weather for park {park_id}: {exc}")
-            weather = {}
-
         for land_name, ride in iter_rides(payload):
             rows.append({
                 "timestamp_kst": timestamp,
@@ -80,11 +60,6 @@ def main():
                 "ride_name": ride.get("name"),
                 "is_open": ride.get("is_open"),
                 "wait_time_min": ride.get("wait_time"),
-                "temperature_c": weather.get("temperature_2m"),
-                "precipitation_mm": weather.get("precipitation"),
-                "weather_code": weather.get("weather_code"),
-                "humidity_pct": weather.get("relative_humidity_2m"),
-                "wind_speed_kmh": weather.get("wind_speed_10m"),
             })
 
     if not rows:
