@@ -1,0 +1,36 @@
+name: Scrape theme park wait times
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - run: python scraper.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "wait-time-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "data: wait time snapshot $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git pull --rebase origin ${{ github.ref_name }}
+            git push
+          fi
