@@ -2645,3 +2645,104 @@ timestamp_kst,park_id,park_name,land_name,ride_id,ride_name,is_open,wait_time_mi
 2026-10-05T21:37:11.409170+09:00,333,Lotte World,,14444,Wild Wing,True,0
 2026-10-05T21:37:11.409170+09:00,333,Lotte World,,14441,World Monorail (Indoor Operation),False,0
 2026-10-05T21:37:11.409170+09:00,333,Lotte World,,14446,파라오의 분노,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14179,Adventure Carnival,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14199,Alpine Carnival,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14203,Amazon Express,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14194,Ball House,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14174,Bao Haus,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14233,Boong Boong Car,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14237,Bumper Car,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14217,Championship Rodeo,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14201,Columbus Adventure,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14193,Double Rock Spin,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14245,Dragon Coaster,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,17814,Exploring Korea with Rui&Hui,True,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14243,Festival train,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,17815,FINAL LAP Experience Zone,True,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,17530,Firefly on a summer night Festival,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14209,Flash Pang Pang,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14205,Flying Elephant,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14192,Flying Rescue,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,17792,Folk Play Zone,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14215,Game Adventure,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14187,Game Pia,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14197,Human Sky(Bottom),False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14172,Human Sky(Top),False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14184,Hurricane,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14221,Jubilee Games,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14171,Kingdom of Cars,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14183,Lenny's Magic School,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14181,Let’s Twist,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14235,Lily Dance,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14189,Lost Valley,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14241,Magic Cookie House,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14180,Magic Swing,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,15304,MEMORY CARNIVAL,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14169,monimo-RUSH,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,15303,Panda 2nd House,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14175,Panda World,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14213,Peter Pan,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14229,Play Yard,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14185,Racing Coaster,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14931,Rail Slide,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14239,Robot Car,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14207,Rolling X-Train,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14219,Royal Jubilee Carousel,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14211,Safari World :The Wild,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14186,Shooting Ghost,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14188,Sky Cruise(Bottom),False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14177,Sky Cruise(Top),False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14182,Sky Dancing,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14178,Sky Way(Bottom),False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14225,Sky Way(Top),False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14176,Space Tour (4D Attraction),False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14227,Spooky Fun House,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14170,Thunder Falls,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,14190,Top Jet,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,17659,Wild Savanna Expedition,False,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,17898,거품멍전,True,0
+2026-10-06T05:54:25.880696+09:00,125,Everland,,17431,워터팡팡 어드벤처,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14424,3D Desperados 2,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14425,4D Shooting Theater,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14463,Across Dark,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,16463,Arcana Ride,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14435,Atlantis,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14456,Balloon Ride,True,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14427,Brother Moon and Sister sun,True,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14452,Bumper Car (Adventure),True,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14426,Camelot Carrousel,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14430,Children's Story Theater,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14421,Comet Express,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14434,Dragons Wild Shooting,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14428,Dream Boat,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,16464,Eos Tower,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14429,Eureka,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14439,Fantasy Dream,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14431,Flume Ride,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14423,Flyventure,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14422,French Revolution,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,16465,Game Village,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14447,Gyro Drop,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14454,Gyro Spin,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14460,Gyro Swing,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,17793,Haunted House,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14459,Jumping Fish,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14449,Kartrider Racing World,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14461,Kids Bumper Car,True,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14450,Kidstoria,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,17823,Kong X Godzilla The Ride,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14433,LOTTY train,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14438,Magic Boong Boong Car,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14436,Petit Beep Beep,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14462,PUBG World Agent,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14432,Spinning Basket,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,16462,Stone Express,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14458,Swing Pang Pang,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14445,The Adventure of Sindbad,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14453,The Conquistador,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14448,Undersea Kingdom,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14442,Wild Jungle,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14437,Wild Valley,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14444,Wild Wing,False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14441,World Monorail (Indoor Operation),False,0
+2026-10-06T05:54:25.880696+09:00,333,Lotte World,,14446,파라오의 분노,False,0
